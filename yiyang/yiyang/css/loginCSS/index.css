@@ -1,0 +1,224 @@
+﻿
+.loginbox{
+	width: 1100px;
+	margin:0 auto;
+	overflow: hidden;
+	min-height: 440px;
+    height:500px;
+}
+.border_box{
+	float: left;
+	width: 720px;
+	height: 440px;
+}
+.login_con{
+	float: right;
+	width: 340px;
+	height: 440px;
+	overflow: hidden;
+}
+.login_con h1{
+	background-color: #ff6600;
+	text-align: center;
+	color: #fff;
+	font-size: 24px;
+	height: 70px;
+	line-height: 70px;
+}
+.text_box{
+	border: #ccc solid 1px;
+	border-top: none;
+	min-height: 369px;
+	background-color: #f0f0f0;
+}
+.text_box>div{
+	margin:0 30px;
+	padding:30px 0;
+}
+.text_box>div>div{
+	height: 46px;
+	margin-bottom: 20px;
+	position: relative;
+}
+.text_box>div>div i{
+	width: 22px;
+	height: 22px;
+	overflow: hidden;
+	margin:12px;
+	position: absolute;
+}
+.text_box_Text{
+	width: 276px;
+	height: 44px;
+	line-height: 44px;
+	background-color: #f5f5f5;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color: #333;
+	border: #ccc solid 1px;
+	text-indent: 44px;
+}
+.text_box input:focus{
+	border: #f00 solid 1px;
+}
+.text_box .yzm input{
+	width: 160px;
+}
+.text_box_validate{
+	width: 100px;
+	text-align: center;
+	display: inline-block;
+}
+.text_box h3{
+	overflow: hidden;
+	margin-top: 24px;
+}
+.text_box h3 a{
+	font-size: 14px;
+	color: #666;
+}
+.text_box h3 a:last-child{
+	float: right;
+}
+.text_box h3 a:hover{
+	text-decoration: underline;
+}
+.text_box_button{
+	display: block;
+	width: 280px;
+	height: 50px;
+	font-size: 18px;
+	color: #fff;
+	line-height: 50px;
+	text-align: center;
+	background-color:#ff6600;
+	font-family: "微软雅黑";
+	margin-top:20px;
+	cursor: pointer;
+}
+.text_box_button:hover{
+	opacity: .9;
+}
+
+/*password_con*/
+.password_con{
+	float: left;
+	width: 600px;
+}
+.password_con .text_box{
+	border: none;
+	background: none;
+}
+.password_con .text_box>div{
+	padding: 20px 0;
+}
+.password_con .text_box>div>div i{
+	margin:14px;
+}
+.password_con .text_box>div>div input{
+	height: 48px;
+	line-height: 48px;
+	width: 400px;
+	background:none;
+	border-radius: 5px;
+}
+.password_con .text_box .yzm input{
+	width: 240px;
+}
+.password_con .text_box button{
+	width: 400px;
+	border-radius: 5px;
+	margin-top:60px;
+}
+.password_con .text_box .yzm label {
+	width: 160px;
+}
+.password_con .text_box>div>div span{
+	color: #f00;
+	margin-left:10px;
+}
+.password_txt h1{
+	color: #333;
+	font-size: 24px;
+	margin: 20px 0;
+}
+.password_txt p{
+	font-size: 14px;
+	color: #999;
+}
+.password_txt h2{
+	font-size: 16px;
+	color: #666;
+	margin-top: 80px;
+}
+.password_txt h2 a{
+	color: #2c8fcd;
+	font-weight: bold;
+}
+.password_txt h2 a:hover{
+	text-decoration:underline;
+}
+
+/*register_con*/
+.register_txt{
+	float: left;
+	width: 600px;
+}
+.register_txt h1{
+	font-size: 24px;
+	color: #333;
+	background:url(../images/jt.png) no-repeat right top 14px;
+	display: inline-block;
+	padding-right: 56px;
+	padding-bottom: 40px;
+}
+.register_txt img{
+	display: block;
+	margin-left: 40px;
+}
+.register_con{
+	float: right;
+	width: 500px;
+}
+.register_con h4{
+	margin-top:34px;
+}
+.register_con h4 a{
+	font-size: 16px;
+	color: #2c8fcd;
+}
+.register_con .text_box button{
+	margin-top:20px;
+}
+
+/*密码修改*/
+.password_con .pass_long{
+	height: 20px;
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+.pass_long h1{
+	color: #666;
+	font-size: 16px;
+}
+
+/*footer*/
+.footer{
+	text-align: center;
+	margin:100px 0 50px;
+}
+.footer p{
+	font-size: 14px;
+	color: #999;
+	line-height: 26px;
+}
+.footer p a{
+	background:url(../images/gongxin.png) no-repeat center left;
+	padding-left: 24px;
+	margin-right:16px;
+}
+.footer p span{
+	background:url(../images/beian.png) no-repeat center left;
+	padding-left: 24px;
+	margin-left:16px;
+}
